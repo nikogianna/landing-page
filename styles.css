@@ -1,0 +1,33 @@
+body {
+    /* height: 100vh; */
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
